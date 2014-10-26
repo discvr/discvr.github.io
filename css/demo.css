@@ -1,0 +1,85 @@
+html, body{
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Varela Round', sans-serif;
+	color: #212121;
+}
+
+.intro{
+	margin-top: 5em;
+	height: 30%;
+}
+
+.artist-actions{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon{
+	margin-bottom: 0.5em;
+	color: #fff;
+	font-size: 1.2em;
+	vertical-align: middle;
+
+}
+
+.icon-circle i{
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+.icon i{
+	font-size: 2em;
+	padding: 0.3em;
+	border: 1px solid transparent;
+	margin-right: 0.3em;
+	color: #fff;
+	background-color: #5677fc;
+}
+
+.artist-links{
+	margin-top: 3em;
+	height: 50%;
+}
+
+.artist-links i{
+	font-size: 2em;
+	margin-right: 1em;
+	display: inline-block;
+}
+
+.rect{
+	border: 1px solid #212121;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	position: relative;
+}
+
+.rect img{
+	display: inline-block;
+}
+
+.rect span{
+	position: absolute;
+	right: 0.5em;
+	vertical-align: middle;
+}
+
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+
+/* 320px (iPhone) */
+@media screen and (max-width:480px) {
+	header h1{
+		font-size: 2.7em;
+	}
+	header p{
+		display: none;
+	}
+	.icon{
+		margin-top: 2em;
+	}
+	#signup input[type=text]{
+		width: 50%;
+	}
+}
